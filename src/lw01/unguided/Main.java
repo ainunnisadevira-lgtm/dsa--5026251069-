@@ -6,7 +6,7 @@ public class Main {
     int T=depsc.nextInt();
     depsc.nextLine();
     Object[] rental=new Object[T];
-    for (int i=0, i<T;i++){
+    for (int i=0; i<T;i++){
         String type = depsc.next();
         String id = depsc.next();
         int days = depsc.nextInt();
